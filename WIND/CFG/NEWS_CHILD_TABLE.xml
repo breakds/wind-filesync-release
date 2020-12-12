@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TableInfo>
+	<Fields>
+		<Field dataType="String" columnSize="100" scale="0" precision="0">OBJECT_ID</Field>
+		<Field dataType="String" columnSize="512" scale="0" precision="0">FIELD</Field>
+		<Field dataType="String" columnSize="512" scale="0" precision="0">CODE</Field>
+		<Field dataType="String" columnSize="512" scale="0" precision="0">NOTE</Field>
+	</Fields>
+	<!-- 新闻产品中哪些字段需要展开 --> 
+	<NeedExpandNewsFields>
+		<FieldName>SECTIONS</FieldName>
+		<FieldName>AREACODES</FieldName>
+		<FieldName>WINDCODES</FieldName>
+		<FieldName>INDUSTRYCODES</FieldName>
+		<FieldName>SECTERCODES</FieldName>
+		<FieldName>MKTSENTIMENTS</FieldName>
+		<FieldName>NEWSLEVELS</FieldName>
+	</NeedExpandNewsFields>
+</TableInfo>

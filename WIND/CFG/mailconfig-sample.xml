@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mailconfig>
+	<!--可以添加自己的邮件服务器 -->
+	<host>smtp.163.com</host>
+	<port>25</port>
+	<!--可选填项，某些邮件系统发邮件需要提供用户名与密码 -->
+	<username>WindDataService</username>
+	<password>windnet</password>
+
+	<sender>WindDataService@163.com</sender>
+	<to>
+		<!--可以添加多个邮件接收人，每个接收人为一个<mail>元素 -->
+		<!--<mail>name1@mailhost</mail>-->
+		<!--<mail>name2@mailhost</mail>-->
+	</to>
+	<cc>
+		<!--可以添加多个邮件接收人，每个接收人为一个<mail>元素 -->
+		<!--<mail>name3@mailhost</mail>-->
+		<!--<mail>name4@mailhost</mail>-->
+	</cc>
+	<!--产品下载入库情况邮件汇报的时间点 -->
+	<timing>
+		<time>8:30</time>
+		<time>17:30</time>
+	</timing>
+</mailconfig>

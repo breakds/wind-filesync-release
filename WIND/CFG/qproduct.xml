@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qproduct>
+	<product today="true" field="trade_dt">amsciindexeod</product>
+	<product today="true" field="price_date">chinainhousefundnav</product>
+	<product today="true" field="trade_dt">gbshareeodprices</product>
+	<product today="true" field="trade_dt">usshareeodprices</product>
+	<product today="false" field="trade_dt">aindexeodprices</product>
+	<product today="false" field="trade_dt">ashareeodprices</product>
+	<product today="false" field="trade_dt">Bshareeodprices</product>
+	<product today="false" field="trade_dt">Chinaclosedfundeodprice</product>
+	<product today="false" field="trade_dt">bohkshareeodprices</product>
+	<product today="false" field="trade_dt">Hkindexeodprices</product>
+	<product today="true" field="trade_dt">aspciticindexeod</product>
+	<product today="false" field="trade_dt">aindexwindindustrieseod</product>
+	<product today="false" field="trade_dt">twshareeodprices</product>
+	<product today="false" field="trade_dt">Cbondprices</product>
+	<product today="false" field="trade_dt">Cbondpricesnet</product>
+	<product today="false" field="trade_dt">Ccommodityfutureseodprices</product>
+	<product today="false" field="trade_dt">cindexfutureseodprices</product>
+	<product today="false" field="trade_dt">aswsindexeod</product>
+	<product today="false" field="trade_dt">cbondanalysiscnbd</product>
+	<product today="false" field="trade_dt">cbondvaluation</product>
+	<product today="false" field="trade_dt">aftsexinhuaindexeod</product>
+	<product today="false" field="trade_dt">cbondindexeodcnbd</product>
+	<product today="false" field="trade_dt">Sgshareeodprices</product>
+	<product today="true" field="price_date">wchinamutualfundnav</product>
+	<product today="false" field="trade_dt">fxrmbmidrate</product></qproduct>

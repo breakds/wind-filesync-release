@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appconfig>
+  <!-- 数据文件备份目录 -->
+  <BACK>WIND/BACK</BACK>
+  <!-- 客户端语言 zh_CN中文 en_US英文-->
+  <LANGUAGE>zh_CN</LANGUAGE>
+  <!-- 是否是用https-->
+  <USEHTTPS>false</USEHTTPS>
+  <!-- 客户端模式 0下载且入库  1外网下载  2内网入库  3定制文件下载-->
+  <MODE>1</MODE>
+  <!-- 日志文件目录-->
+  <LOG>WIND/LOG</LOG>
+  <!-- 数据文件目录-->
+  <DATA>WIND/DATA</DATA>
+</appconfig>

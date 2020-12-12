@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<!--ERROR的 目录文件 -->
+	<appender name="ERROR" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="WIND/LOG/ERROR.txt" />
+		<param name="Threshold" value="ERROR" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="2MB" />
+		<param name="MaxBackupIndex" value="100" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d [%t] %-5p %c [%x] - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="ERROR" />
+			<param name="LevelMax" value="ERROR" />
+		</filter>
+	</appender>
+	<!--INFO 的目录文件 -->
+	<appender name="INFO" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="WIND/LOG/INFO.txt" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="2MB" />
+		<param name="MaxBackupIndex" value="100" />
+
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d [%t] %-5p %c [%x] - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="INFO" />
+			<param name="LevelMax" value="INFO" />
+		</filter>
+	</appender>
+	<!--DEBUG 的目录文件 -->
+	<appender name="DEBUG" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="WIND/LOG/DEBUG.txt" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="2MB" />
+		<param name="MaxBackupIndex" value="10" />
+
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d [%t] %-5p %c [%x] - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="DEBUG" />
+			<param name="LevelMax" value="DEBUG" />
+		</filter>
+	</appender>
+	<!--控制台的输出 -->
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<param name="Threshold" value="INFO" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The default pattern: Date Priority [Category] Message\n -->
+			<param name="ConversionPattern" value="%d{ABSOLUTE} %-5p [%c{1}] %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="INFO" />
+			<param name="LevelMax" value="ERROR" />
+		</filter>
+	</appender>
+	<root>
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="ERROR" />
+		<appender-ref ref="INFO" />
+		<!-- <appender-ref ref="DEBUG"/> -->
+	</root>
+</log4j:configuration>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+	<server name="南京电信" enname="Nanjing Telecom" host="180.96.8.40"  httpport="80" httpsport="443" />
+    <server name="南京联通" enname="Nanjing Unicom" host="122.96.62.238"  httpport="80" httpsport="443" />
+    <server name="上海电信" enname="Shanghai Telecom" host="114.80.154.62"  httpport="80" httpsport="443" /> 
+    <server name="香港" enname="Hong Kong" host="125.215.147.60" httpport="80" httpsport="443" /> 
+</servers>

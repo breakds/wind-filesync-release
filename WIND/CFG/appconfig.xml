@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appconfig>
+  <BACK>WIND/BACK</BACK>
+  <LANGUAGE>zh_CN</LANGUAGE>
+  <USEHTTPS>false</USEHTTPS>
+  <MODE>0</MODE>
+  <LOG>WIND/LOG</LOG>
+  <DATA>WIND/DATA</DATA>
+</appconfig>

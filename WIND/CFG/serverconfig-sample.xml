@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<serverconfig>
+	<!-- 是否每条记录写到RECORD_LOG表中，慎用，影响入库性能 -->
+	<writeRecordLog>false</writeRecordLog>
+	<!-- 是否开启清除日志RECORD_LOG功能 -->
+	<clearLog>1</clearLog>
+	<!--RECORD_LOG日志保存的天数 -->
+	<keepdates>1</keepdates>
+	<!--下载工作线程数，最大可设为3 -->
+	<threadCount>2</threadCount>
+	<!--入库线程数 -->
+	<dbThreadCount>3</dbThreadCount>
+	<!--事务提交的数量，最小100，最大50000 -->
+	<commitCount>5000</commitCount>
+	<!--一次批处理提交的行数，最大500 -->
+	<batchRowCount>200</batchRowCount>
+	<!--sqlserver Date类型，默认使用datetime2，此处配置使用datetime-->
+	<useSqlServerDatetime>true</useSqlServerDatetime>
+	<!--每个入库表添加一个更新时间戳字段名，默认不指定不会添加此字段 -->
+	<ClientOPDate>ClientOPDate</ClientOPDate>
+	<!--每个入库表添加一个新增时间戳字段名，默认不指定不会添加此字段 -->
+	<ClientAddDate>ClientAddDate</ClientAddDate>	
+	<!--每个入库表添加一个数据业务时间 -->
+	<UseServerMOpDate>true</UseServerMOpDate>	
+	<!--入库间隔,最小0，表示没有任何间隔，入库最快，最大值为1000 -->
+	<dbinterval>0</dbinterval>
+	<!-- 数据库字符集，GBK 或者 UTF-8 -->
+	<dbencoding>GBK</dbencoding>
+	<!-- 数据库表的 schema，默认没有，为当前数据库用户的schema -->
+	<dbschema></dbschema>
+    <!-- 数据存储表空间（目前只支持db2） -->
+	<dbTablespace>tbsp1</dbTablespace>
+	<!-- 下载失败重试次数，默认为5次。在网络情况不好情况下，可以适当提高此值 -->
+	<downloadretrycount>5</downloadretrycount>
+	<!-- 入库后保留备份文件的时间，默认为0，不保留 -->
+	<keepBackFileDays>0</keepBackFileDays>
+	<!-- 是否解压文件，默认false -->
+	<unzipfile>false</unzipfile>
+	<!-- 如果解压，是否保留原来的压缩文件 -->
+	<keepzipfile>true</keepzipfile>
+	<!-- 是否自动扩展字段 -->
+	<autoExpandField>true</autoExpandField>
+	<!-- 自动扩展字段时，是否禁止由varchar转CLOB -->
+	<expandFieldDisableClob>true</expandFieldDisableClob>
+	<!-- 全量产品入库前是否使用truncate清空数据 -->
+	<usetruncate>true</usetruncate>
+	
+	<!-- 客户端格式转换相关-->
+	<!-- 标准产品定制数据文件格式(只在customedown模式支持)none(0), csv(1), txt(2) -->
+	<dataFormat>0</dataFormat>
+	<!-- 标准产品定制数据文件txt格式的行分割符 -->
+	<rowSplitString>1</rowSplitString>
+	<!-- 标准产品定制数据文件txt格式的列分割符 -->
+	<colSplitString>1</colSplitString>
+	<!-- 标准产品定制数据文件格式是否需要列头 -->
+	<needHeader>true</needHeader>
+	<!-- 标准产品定制数据文件格式是否需要压缩 -->
+	<gzipData>false</gzipData>
+	<!-- 标准产品定制数据文件重命名规则-->
+	<fileNameFormat>[ProductName].[T].[FileID].{Version}.{Time:yyyyMMddHHss}.{DefaultName}</fileNameFormat>	
+	<!-- 是否重置格式转换后文件的字段输出顺序,opmode,opdate,mopdate按顺序输出-->
+	<configFileds>false</configFileds>
+	<!-- txt文件中使用null代替""-->
+	<useNullForEmpty>false</useNullForEmpty>
+	<!-- txt文件中使用null代替""-->
+	<dataFormatEncoding>GBK</dataFormatEncoding>
+	
+	<!-- 是否支持自定义转换文件的字段输出-->
+	<configFileds>false</configFileds>			
+
+	<!-- 入库产品是否需要保留索引和触发器 -->
+	<!-- <IndexTrigger>true</IndexTrigger>-->
+	<!-- 是否开启客户端自动升级 -->
+	<autoupgrade>false</autoupgrade>
+	<!-- 是否开启新闻字段展开 -->
+	<expandNewsField>false</expandNewsField>
+	<!-- Linux系统下载文件权限配置，默认644-->
+	<linuxFileAuth>644</linuxFileAuth>	
+	<!-- Windows系统下载文件当前用户权限配置，三位二进制数。110代表可读、可写、不可执行-->
+	<windowsFileAuth>110</windowsFileAuth>
+	<!-- 只下载模式下对于标准产品是否解压 -->
+	<unzipStandardOnDownloadOnly>false</unzipStandardOnDownloadOnly>
+	<!-- 只下模式下对于标准产品解压 针对指定的产品这里配置产品名 用，隔开  
+	没有该配置项或值为空 就认为针对所有产品  -->
+	<productList></productList>
+	<!-- 只下载模式下对于标准产品是否解压 解压后是否保留原文件 -->
+	<keepGzipFile>false</keepGzipFile>
+	<!-- 中信银行总行  是否生成。ok文件 -->
+	<BuildOKFile>false</BuildOKFile>
+	<!-- 中信银行总行  。txt文件存放的目录 -->
+	<TxtFilePath></TxtFilePath>
+	
+	
+	
+	
+</serverconfig>

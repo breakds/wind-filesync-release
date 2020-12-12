@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TableInfo>
+	<Fields>
+		<Field dataType="String" columnSize="40" scale="0" precision="0">TABLENAME</Field>
+		<Field dataType="String" columnSize="512" scale="0" precision="0">CURFILE</Field>
+		<Field dataType="String" columnSize="1000" scale="0" precision="0">CURFILEDESC</Field>
+		<Field dataType="DATETIME" columnSize="0" scale="0" precision="0">CURFILETIME</Field>
+		<Field dataType="String" columnSize="512" scale="4" precision="20">SERVERFILE</Field>
+		<Field dataType="DATETIME" columnSize="0" scale="0" precision="0">SERVERFILETIME</Field>
+		<Field dataType="DATETIME" columnSize="0" scale="0" precision="0">OPDATE</Field>
+	</Fields>
+</TableInfo>

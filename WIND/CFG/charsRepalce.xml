@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<charsRepalce>
+	<character char="&amp;" replace="_" />
+	<character char="(" replace="_" />
+	<character char=")" replace="_" />
+	<character char="{" replace="_" />
+	<character char="}" replace="_" />
+	<character char="[" replace="_" />
+	<character char="]" replace="_" />
+	<character char="-" replace="_" />
+	<character char=" " replace="_" />
+</charsRepalce>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DBconfig>
+  <!-- 数据库服务器名或IP地址-->
+  <HOST>filesyncdb</HOST>
+  <!-- 数据库端口-->
+  <PORT>1521</PORT>
+  <!-- 数据库类型 0:Oracle 1:SqlServer 2:DB2 3:MySql-->
+  <DBTYPE>3</DBTYPE>
+  <!-- Oracle：oracle8i,oracle9i,oracle10g，oracle11g，oracle12c-->
+  <!-- SqlServer:SQLServer2005,SQLServer2008,SQLServer2012,SQLServer2014-->
+  <!-- DB2：v9,v97-->
+  <!-- MySql：mysql51,mysql57-->
+  <VERSION>oracle10g</VERSION>
+  <!-- 数据库数据库名称（Oracle数据库为SID）-->
+  <DATABASE>orcl</DATABASE>  
+  <!-- oracle是否使用服务名进行连接-->
+  <UseServiceName>true</UseServiceName>
+  <!-- 数据库登录用户名-->
+  <USSERNAME>wind</USSERNAME>
+  <!-- 数据库密码-->
+  <PASSWORD>wind</PASSWORD>
+  <!-- 是否启用windows身份认证-->
+  <WINAUTH>false</WINAUTH>
+</DBconfig>

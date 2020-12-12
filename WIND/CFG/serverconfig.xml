@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<serverconfig>
+  <threadCount>2</threadCount>
+  <dbThreadCount>2</dbThreadCount>
+  <autoExpandField>true</autoExpandField>
+  <downloadretrycount>5</downloadretrycount>
+  <batchRowCount>200</batchRowCount>
+  <commitCount>5000</commitCount>
+  <unzipfile>true</unzipfile>
+  <keepzipfile>false</keepzipfile>
+  <writeRecordLog>false</writeRecordLog>
+  <clearLog>false</clearLog>
+  <keepdates>7</keepdates>
+  <keepBackFileDays>0</keepBackFileDays>
+  <usetruncate>true</usetruncate>
+  <expandNewsField>true</expandNewsField>
+</serverconfig>

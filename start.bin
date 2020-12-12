@@ -1,0 +1,2 @@
+./jdk/linux/jre/bin/java -jar AutoUpdate.jar copy
+./jdk/linux/jre/bin/java -jar -Xms30m -Xmx300m fileSync.jar

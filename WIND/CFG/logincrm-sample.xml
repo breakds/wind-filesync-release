@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<logincrm>
+  <!-- wind服务器名称 -->
+  <WEBSERVER>上海电信</WEBSERVER>
+  <!-- FileSync用户名 -->
+  <CRMUSERNAME>db6000000</CRMUSERNAME>
+  <!-- 登录密码 -->
+  <CRMPASSWORD>password</CRMPASSWORD>
+  <!-- 客户端是否自动登录 -->
+  <CRMAUTOLOGIN>true</CRMAUTOLOGIN>
+</logincrm>

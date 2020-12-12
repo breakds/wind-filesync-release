@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProxyConfig>
+  <!-- 是否使用代理 -->
+  <USEPROXY>false</USEPROXY>
+  <!-- web协议： http or https -->
+  <PROXYPROTOCOL>http</PROXYPROTOCOL>
+  <!-- 代理服务地址 -->
+  <PROXYHOST>10.200.7.242</PROXYHOST>
+  <!-- 代理服务端口 -->
+  <PROXYPORT>808</PROXYPORT>
+  <!-- 代理用户名 -->
+  <PROXYUSERNAME>xjliu</PROXYUSERNAME>
+  <!-- 代理密码 -->
+  <PROXYPASSWORD>password</PROXYPASSWORD>
+</ProxyConfig>

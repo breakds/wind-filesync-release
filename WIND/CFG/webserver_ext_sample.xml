@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+  <!-- 专线用户、ip映射用户使用 -->
+  <server host="114.80.154.62" name="上海电信2" httpport="80" httpsport="443"></server>
+</servers>

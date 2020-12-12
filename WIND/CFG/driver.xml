@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+    <driver type="0" version="oracle8i" path="lib/driver/oracle/classes12.jar"/>
+	<driver type="0" version="oracle9i" path="lib/driver/oracle/classes12-10g.jar"/>
+	<driver type="0" version="oracle10g" path="lib/driver/oracle/classes12-10g.jar"/>
+	<driver type="0" version="oracle11g" path="lib/driver/oracle/ojdbc6.jar"/>
+	<driver type="0" version="oracle12c" path="lib/driver/oracle/ojdbc6_12c.jar"/>
+	<driver type="1" version="SQLServer2000" path="lib/driver/sqlserver/sqlserver2000.jar"/>
+	<driver type="1" version="SQLServer2005" path="lib/driver/sqlserver/sqljdbc4.jar"/>
+	<driver type="1" version="SQLServer2008" path="lib/driver/sqlserver/sqljdbc4.jar"/>
+	<driver type="1" version="SQLServer2012" path="lib/driver/sqlserver/sqljdbc4.jar" /> 
+	<driver type="1" version="SQLServer2014" path="lib/driver/sqlserver/sqljdbc4.jar" /> 
+	<driver type="2" version="v9" path="lib/driver/db2/db2jcc4_v97.jar"/>
+	<driver type="2" version="v97" path="lib/driver/db2/db2jcc4_v97.jar"/>
+	<driver type="3" version="mysql51" path="lib/driver/mysql/mysql-connector-java-5.1.31-bin.jar"/>
+	<driver type="3" version="mysql57" path="lib/driver/mysql/mysql-connector-java-5.1.47.jar"/>
+</drivers>
